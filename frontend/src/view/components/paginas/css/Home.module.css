@@ -1,0 +1,32 @@
+section {
+    min-height: 76.4vh;
+}
+
+.home_container h1{ 
+    font-weight: bold;
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.home_container span{
+    background-color: #222;
+    padding: 0 0.2em;
+    font-weight: bold;
+    color: #ffBB33;
+}
+
+.home_container p{ 
+    color: #7b7b7b;
+}
+
+.home_img{
+    width: 400px;
+    height: auto;
+    margin-top: 5em;
+}
+
+@media screen and (max-width:1200px) {
+    .home_img{
+        max-width: 100%;
+    }
+}

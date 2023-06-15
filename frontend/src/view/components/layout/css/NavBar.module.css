@@ -1,0 +1,33 @@
+.navbar {
+    padding: 1em
+}
+
+.navbar_logo{
+    width: 60px;
+}
+
+.navbar_bg{
+    background-color: #222;
+}
+
+.navbar_collapse {
+    flex-grow: unset;
+}
+
+.navbar_nav a{
+    color: #fff;
+    font-size: 20px;
+}
+
+.navbar_nav a:hover{
+    color: #FFBB33;
+}
+
+.navbar_nav a:focus{
+    color: #fff;
+}
+
+.navbar_toggler_style{
+    border: none;
+    box-shadow: none !important;
+}

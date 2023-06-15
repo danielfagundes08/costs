@@ -1,0 +1,15 @@
+label {
+    font-weight: bold;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.input_control{
+    padding: 10px;
+    border-color: #efefef;
+}
+
+.input_control:focus{
+    border-color: #222;
+    box-shadow: none;
+}

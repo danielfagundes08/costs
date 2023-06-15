@@ -1,0 +1,56 @@
+footer{
+    padding: 3em;
+}
+
+.footer_bg{
+    background-color: #222;
+}
+
+.social_list{
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+}
+
+.social_list svg{
+    font-size: 1.5em;
+    margin: 0 1em;
+    color: #fff;
+}
+
+.social_list svg:hover{
+    transition: .15s;
+    color: #FFBB33;
+}
+
+.copyright{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.copyright p{
+    font-size: 1,5em;
+    color: #fff;
+    margin: 0;
+}
+
+.copyright span{
+    margin-right: .3em;
+    font-weight: bold;
+    color: #FFBB33;
+}
+
+@media screen and (max-width: 576px) {
+    .social_list{
+        justify-content: center;
+        margin-bottom: 2em;
+    }
+
+    .copyright{
+        justify-content: center;
+        margin-top: 2em;
+    }
+}

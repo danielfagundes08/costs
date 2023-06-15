@@ -1,0 +1,18 @@
+.form_button{
+    color: #fff;
+    background-color: #222;
+    border-style: none;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-top: .5em;
+    transition: 0.5s;
+    outline: none;
+}
+
+.form_button:hover{
+    color: #ffbb33;
+    background-color: #222;
+}

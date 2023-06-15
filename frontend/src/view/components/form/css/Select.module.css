@@ -1,0 +1,9 @@
+.select_control{
+    padding: 10px;
+    border-color: #efefef;
+}
+
+.select_control:focus{
+    border-color: #222;
+    box-shadow: none;
+}
